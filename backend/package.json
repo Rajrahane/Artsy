@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend server for USC CSCI 571 HW8 Artsy app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajrahane/Artsy.git"
+  },
+  "keywords": [
+    "Artsy"
+  ],
+  "author": "rajrahane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajrahane/Artsy/issues"
+  },
+  "homepage": "https://github.com/Rajrahane/Artsy#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
